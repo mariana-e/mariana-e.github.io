@@ -74,7 +74,7 @@ header h2 span {
 }
 /***** Work *****/
 #Work {
-    background: #F9CEB7;
+    background: #b3dbff;
     text-align: center;
 }
 #Work .full-width {
@@ -133,7 +133,7 @@ header h2 span {
 }
 #Contact a {
     text-decoration:none; 
-    color: MediumSeaGreen;
+    color: #c49075;
     font-weight: bold;
     font-size: 28px;
 }
