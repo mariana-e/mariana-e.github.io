@@ -21,9 +21,7 @@ body {
 }
 /***** Header *****/
 header {
-    height: 800px;
-    background: url("img/hero.png") no-repeat;
-    background-size: cover;
+   
 }
 header h1 { 
     padding: 65px 0 65px 25px;
