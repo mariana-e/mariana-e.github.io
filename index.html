@@ -16,28 +16,30 @@
         <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    </head>
+		<script>
+			var i = 0;
+			var txt = 'Aspiring Security Professional'; /* The text */
+			var speed = 150; /* The speed/duration of the effect in milliseconds */
+		
+		function typeWriter() {
+		  if (i < txt.length) {
+			document.getElementById("type_text").innerHTML += txt.charAt(i);
+			i++;
+			setTimeout(typeWriter, speed);
+		  }
+		}
+		typeWriter();
+			</script>
+	
+	</head>
     <body>
     <header>
+		
     	<div class="full-width">
-		<div class="half-width">
   
    				<h1>Mariana Eubanks</h1>
-				<script>
-    var i = 0;
-    var txt = 'Aspiring Security Professional'; /* The text */
-    var speed = 150; /* The speed/duration of the effect in milliseconds */
+			
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("type_text").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-typeWriter();
-    </script>
-			<div class="half-width">
 				<nav>
 					<ul>
 						<li><a href="#About">About</a></li>
@@ -45,7 +47,7 @@ typeWriter();
 						<li><a href="#Contact">Contact</a></li>
                     </ul>    
 				</nav>	
-   			</div>
+   			
 			<p id="type_text"></p>
    
    		</div>

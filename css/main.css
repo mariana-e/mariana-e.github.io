@@ -27,10 +27,12 @@ header h1 {
     padding: 65px 0 65px 25px;
     font-family: 'Lora', serif; 
     color:#BBC085;
+    display: inline-block;
 }
 header nav {
     float: right; 
     padding: 75px 25px;
+    display: inline-block;
 }
 nav ul li{
     display: inline-block;
