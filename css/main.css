@@ -227,7 +227,8 @@ section {
 #Skills ul {
     list-style-type:circle;
     text-align: left;;
-    left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /***** Contact *****/
