@@ -197,20 +197,16 @@ section {
 #resume h3{
     font-family: monospace;
     font-size: 30px;
-    margin: 20px 300px;
 }
 
-#resume h2 {
-    text-transform: capitalize;
-
-}
 .job{
         background-color: #BBC085;
         padding: 50px;
-        width: 600px; 
+        width: 800px; 
         margin: 60px;
         display:inline-block;
         font-style: italic;
+        align-items: center;
 }
 .badge-base {
         display: inline-block;
