@@ -2,6 +2,16 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #2b2b2b;
+    text-align: center; 
+}
+
+p{
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Cambria;
 }
 #About, #Work, #Contact {
     height: 600px;
@@ -20,9 +30,6 @@ body {
     float: left;
 }
 /***** Header *****/
-header {
-   
-}
 header h1 { 
     padding: 65px 0 65px 25px;
     font-family: 'Lora', serif; 
@@ -57,130 +64,31 @@ header h2 span {
     color:#2B2B2B;
 }
 /***** About *****/
-#About .full-width {
-    padding: 80px 0;
-}
-#About h2 {
+#About {
     font-family: 'Lora', serif; 
-    font-size: 36px;
-    padding-left: 40PX;
-}
-#About p {
-    font-size: 21px;
-    color: #7F7F7F;
+    font-size: 30px;
+    color: #5793a1;
     line-height: 40PX;
     padding-left: 40PX;
-    padding-right: 30PX;
-}
-/***** Work *****/
-#Work {
-    background: #cce7ff;
+    padding-right: 40PX;
     text-align: center;
+    background-image: url(img/cacti.jpg);
 }
-#Work .full-width {
-    padding: 115px 0;
-}
-#Work img {
-    padding-bottom: 30px;
-}
-#Work h3 {
-    font-size: 24px;
-    line-height: 32px;
-    width: 190px;
-    margin: 0 auto;
-}
-#Work p {
-    font-family: 'Lora', serif; 
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0 50px;
+#About h2 {
+    background-color: #5793a1;
+    color: #2B2B2B;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 300px;
 }
 
-/***** Contact *****/
 
-#Contact {
-    background-color: #EBEBEB;
-}
-#Contact .full-width {
-    padding: 110px 0;
-}
-#Contact img#contact-img {
-    margin-left: 25px;
-    border: 12px solid #ffffff;
-}
-#Contact h2, #Contact #email-header, #Contact #socialmedia-header, #Contact ul {
-    padding-left: 115px;
-}
-#Contact #envelope {
-    padding: 0 10px 0 115px;
-}
-#Contact h2 {
-    font-family: 'Lora', serif; 
-    font-size: 36px;
-    line-height: 40px;
-}
-#Contact #email-header{
-    font-size: 32px;
-    font-weight: lighter;
-    line-height: 44px;
-    margin: -30px 0 5px 0;
-}
-#Contact #socialmedia-header {
-    font-weight: bold;
-    font-size: 29px;
-    line-height: 44px;
-    margin: 40px 0 0 0;
-}
-#Contact a {
-    text-decoration:none; 
-    color: #c49075;
-    font-weight: bold;
-    font-size: 28px;
-}
-#Contact ul {
-    list-style: none;
-}
-#Contact ul li {
-     display: inline-block;
-}
-#Contact ul img {
-    font-size: 32px;
-    padding-right: 48px;
-}
-* {box-sizing:border-box}
-
-
-#Skills h2{ 
-    position: fixed; 
-    bottom: 0px; 
-    right: 0px; 
-}
-
+/***** Projects *****/
 #Projects h1{
     font-family: 'Russo One';
     font-size: 50px;
     text-align: center;
-}
-#Resume h1{
-    font-family: 'Russo One';
-    font-size: 50px;
-    text-align: center;
-    Color: rgb(0, 147, 205);
-}
-#Resume div{
-        width: 300px;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;
-        border: #BBC085;
-        text-align: center;
-}
-
-
-h3 {
-    font-family: 'lora',
-    text-align: center;
-
 }
 
 
@@ -274,4 +182,89 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+/***** Contact *****/
+
+#Contact {
+    background-color: #EBEBEB;
+}
+#Contact .full-width {
+    padding: 110px 0;
+}
+#Contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+#Contact h2, #Contact #email-header, #Contact #socialmedia-header, #Contact ul {
+    padding-left: 115px;
+}
+#Contact #envelope {
+    padding: 0 10px 0 115px;
+}
+#Contact h2 {
+    font-family: 'Lora', serif; 
+    font-size: 36px;
+    line-height: 40px;
+}
+#Contact #email-header{
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#Contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#Contact a {
+    text-decoration:none; 
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#Contact ul {
+    list-style: none;
+}
+#Contact ul li {
+     display: inline-block;
+}
+#Contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+* {box-sizing:border-box}
+
+
+#Skills h2{ 
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px; 
+}
+
+#Resume h1{
+    font-family: 'Russo One';
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    Color: rgb(0, 147, 205);
+}
+#resume h3{
+    font-family: monospace;
+}
+.job{
+        border: #BBC085;
+        text-align: center;
+        align-items: center;
+        padding: 50px;
+        background: #BBC085;
+        width: 400px;    
+}
+.Codelucida, .cdim{
+    float: right;
+}
+.cfa{
+    float: left;
 }
