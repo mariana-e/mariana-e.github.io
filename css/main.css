@@ -72,7 +72,7 @@ header h2 span {
     padding-left: 40PX;
     padding-right: 40PX;
     text-align: center;
-    background-image: url(img/cacti.jpg);
+    background-image: url('img/cacti.jpg');
 }
 #About h2 {
     background-color: #5793a1;
