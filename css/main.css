@@ -218,7 +218,7 @@ section {
     right: 100px; 
     left: 500px;
     align-items: center;
-    padding: 25px;
+    padding: 100px;
     
 }
 #Skills {
@@ -226,10 +226,9 @@ section {
 }
 #Skills ul {
     list-style-type:circle;
-    text-align: left;;
-    margin-left: 10px;
-    margin-right: 10px;
+    text-align: left;
 }
+
 
 /***** Contact *****/
 
