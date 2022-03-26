@@ -17,7 +17,7 @@ h2 {
     height: 600px;
 }
 /***** GRID *****/
-.full-width {
+/.full-width {
     width: 1200px;
     margin: 0 auto;
 }
@@ -26,7 +26,7 @@ h2 {
     float: left;
 }
 .third-width {
-    width: 400px;
+    width: 33%;
     float: left;
 }
 /***** Header *****/
@@ -49,7 +49,7 @@ nav ul li a {
     text-decoration:none; 
     font-size: 18px;
     color:#828282; 
-    padding-left: 80px; 
+    padding-left: 150px; 
 }
 header h2 {
     width: 1000px;
@@ -63,26 +63,6 @@ header h2 {
 header h2 span {
     color:#2B2B2B;
 }
-/***** About *****/
-#About {
-    font-family: 'Lora', serif; 
-    font-size: 30px;
-    color: #5793a1;
-    line-height: 40PX;
-    padding-left: 40PX;
-    padding-right: 40PX;
-    text-align: center;
-    background-image: url('img/cacti.jpg');
-}
-#About h2 {
-    background-color: #5793a1;
-    color: #2B2B2B;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-    margin: 10px 300px;
-}
-
 
 /***** Projects *****/
 #Projects h1{
@@ -90,8 +70,6 @@ header h2 span {
     font-size: 50px;
     text-align: center;
 }
-
-
 
 /* Slideshow container */* {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -184,6 +162,69 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+/***** About *****/
+#About {
+    font-family: 'Lora', serif; 
+    font-size: 30px;
+    color: #5793a1;
+    line-height: 40PX;
+    padding-left: 40PX;
+    padding-right: 40PX;
+    padding-bottom: 40px;
+    text-align: center;
+    background-image: url('img/cacti.jpg');
+    margin: 10px 30px;
+
+}
+#About h2 {
+    background-color: #5793a1;
+    color: #2B2B2B;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/*** Resume ***/
+#Resume h1{
+    font-family: 'Russo One';
+    font-size: 50px;
+    text-align: center;
+    Color: rgb(0, 147, 205);
+}
+#resume h3{
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#resume h2 {
+    text-transform: capitalize;
+
+}
+.job{
+        background-color: #BBC085;
+        padding: 50px;
+        width: 600px; 
+        margin: 60px;
+        display:inline-block;
+        font-style: italic;
+}
+.badge-base {
+        display: inline-block;
+        clear: both;
+}
+
+/*** Skills ***/
+#Skills h2{ 
+    bottom: 0px; 
+    right: 100px; 
+    left: 500px;
+    align-items: center;
+    
+}
+#Skills {
+    background-color: #b5d4db;
+}
+
 /***** Contact *****/
 
 #Contact {
@@ -234,37 +275,4 @@ img {vertical-align: middle;}
 #Contact ul img {
     font-size: 32px;
     padding-right: 48px;
-}
-* {box-sizing:border-box}
-
-
-#Skills h2{ 
-    position: fixed; 
-    bottom: 0px; 
-    right: 0px; 
-}
-
-#Resume h1{
-    font-family: 'Russo One';
-    font-size: 50px;
-    text-align: center;
-    align-items: center;
-    Color: rgb(0, 147, 205);
-}
-#resume h3{
-    font-family: monospace;
-}
-.job{
-        border: #BBC085;
-        text-align: center;
-        align-items: center;
-        padding: 50px;
-        background: #BBC085;
-        width: 400px;    
-}
-.Codelucida, .cdim{
-    float: right;
-}
-.cfa{
-    float: left;
 }
