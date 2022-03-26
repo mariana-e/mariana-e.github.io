@@ -203,9 +203,8 @@ section {
         background-color: #BBC085;
         padding: 50px;
         width: 40%; 
-        margin: 60px;
+        margin-bottom: 60px;
         font-style: italic;
-        align-items: center;
         margin-left: 30%;
 }
 .badge-base {
