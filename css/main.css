@@ -176,6 +176,9 @@ img {vertical-align: middle;}
     margin: 10px 30px;
 
 }
+section {
+    padding: 100px;
+}
 #About h2 {
     background-color: #5793a1;
     color: #2B2B2B;
