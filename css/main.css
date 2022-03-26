@@ -165,7 +165,7 @@ img {vertical-align: middle;}
 /***** About *****/
 #About {
     font-family: 'Lora', serif; 
-    font-size: 30px;
+    font-size: 40px;
     color: #5793a1;
     line-height: 40PX;
     padding-left: 40PX;
@@ -218,10 +218,14 @@ section {
     right: 100px; 
     left: 500px;
     align-items: center;
+    padding: 25px;
     
 }
 #Skills {
     background-color: #b5d4db;
+}
+#Skills ul {
+    list-style-type:circle;
 }
 
 /***** Contact *****/
