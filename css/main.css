@@ -218,11 +218,10 @@ section {
     right: 100px; 
     left: 100px;
     align-items: center;
-    
+
 }
 #Skills {
     background-color: #b5d4db;
-    display: inline-block;
 }
 #Skills ul {
     list-style-type:circle;
